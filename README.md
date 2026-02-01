@@ -20,8 +20,8 @@ The dataset simulates patient health records including:
 
 ## Sample SQL Queries
 
-```sql
 -- Average cholesterol by age group
+
 SELECT
   CASE
     WHEN age < 30 THEN 'Under 30'
@@ -32,7 +32,6 @@ SELECT
 FROM patients
 GROUP BY age_group;
 
-```sql
 -- Identify high-risk patients based on cholesterol and blood pressure
 SELECT
   id,
