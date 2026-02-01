@@ -48,8 +48,3 @@ Commit message:
 
 ---
 
-## 4️⃣ Dataset ekle.
-
-Repo ana sayfa → **Add file → Create new file**
-
-Dosya adı:
