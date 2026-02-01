@@ -42,8 +42,11 @@ SELECT
 FROM patients
 WHERE cholesterol > 220
   OR blood_pressure > 135;
+  
+--This query helps identify patients who may require closer monitoring
+due to elevated cardiovascular risk indicators.
 
-Commit message:
+Commit :
 
 ---
 
