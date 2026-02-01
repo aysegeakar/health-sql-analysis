@@ -32,6 +32,18 @@ SELECT
 FROM patients
 GROUP BY age_group;
 
+```sql
+-- Identify high-risk patients based on cholesterol and blood pressure
+SELECT
+  id,
+  age,
+  gender,
+  cholesterol,
+  blood_pressure
+FROM patients
+WHERE cholesterol > 220
+  OR blood_pressure > 135;
+
 Commit message:
 
 ---
