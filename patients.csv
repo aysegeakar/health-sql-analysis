@@ -1,0 +1,10 @@
+
+İçeriği:
+
+```csv
+id,age,gender,cholesterol,blood_pressure
+1,25,F,180,120
+2,34,M,220,130
+3,28,F,190,118
+4,52,M,240,140
+5,46,F,200,135
